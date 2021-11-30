@@ -375,16 +375,16 @@ window.addEventListener('load', () => {
         }
 
 
-        document.getElementById( 'chat-input' ).addEventListener( 'keypress', ( e ) => {
-            if ( e.which === 13 && ( e.target.value.trim() ) ) {
-                e.preventDefault();
-                sendMsg( e.target.value );
-               //  console.log( sendMsg( e.target.value ),'dddddddddddddddddddddddd');
-                setTimeout( () => {
-                    e.target.value = '';
-                }, 50 );
-            }
-        } );
+        // document.getElementById( 'chat-input' ).addEventListener( 'keypress', ( e ) => {
+        //     if ( e.which === 13 && ( e.target.value.trim() ) ) {
+        //         e.preventDefault();
+        //         sendMsg( e.target.value );
+        //        //  console.log( sendMsg( e.target.value ),'dddddddddddddddddddddddd');
+        //         setTimeout( () => {
+        //             e.target.value = '';
+        //         }, 50 );
+        //     }
+        // } );
 
 
 
