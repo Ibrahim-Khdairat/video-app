@@ -28,7 +28,7 @@
 
 
 .local-video{
-    bottom: 10%;
+    bottom: 0;
     left: 0;
     position: fixed;
     /* width:15vw; */
@@ -140,7 +140,7 @@
 
 
     .local-video{
-        width:100%;
+        width:40vw;
     }
 }
 
