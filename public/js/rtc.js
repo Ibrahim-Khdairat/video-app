@@ -5,39 +5,12 @@ let socket = io('/stream');
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
-// let logInForm = document.getElementById("logInForm");
-// let logInformdiv = document.getElementById("logInFormdiv");
-// let video = document.getElementById("video");
-// let chat = document.getElementById("videoChat");
-// let sendmessage = document.getElementById("sendmessage");
-// let text = document.querySelector("#text");
-// let messageSpace = document.querySelector(".messageSpace");
-// let reciver = document.querySelector("#reciver");
-let responseUser;
 
 
 
-// logInForm.addEventListener("submit", (e) => {
-//     e.preventDefault();
-//     let roleList = document.getElementById("role")
-//     let userName = e.target.userName.value;
-//     let password = e.target.password.value;
-//     let role = roleList.value;
-
-//     signInFunction(userName, password, role);
-
-
-//     logInformdiv.setAttribute("hidden", 1);
-//     chat.removeAttribute("hidden");
-
-//     socket.emit("userConnected" ,userName );
 
 
 
-// })
-
-// let userData = localStorage.getItem("userData");
-// let user = JSON.parse(userData);
 
 
 
